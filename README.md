@@ -33,3 +33,10 @@ https://www.youtube.com/watch?v=frxT2qB1POQ
 2. A teacher feature - two options
     1. The key lights up and the user clicks.
     2. Two pianos top and bottom. The teacher piano on top and learner piano on bottom. 
+
+### Current questions?
+
+1. Can CSS grid be used to make the virtual piano of black and white keys?
+-Yes, this video shows it being done in flexbox but can be adapted to CSS grid.  
+https://www.youtube.com/watch?v=vjco5yKZpU8&t=15s
+
