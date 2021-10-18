@@ -13,6 +13,8 @@ body {
     display: grid;
 }
 
+/* Add CSS grid styling change keys from vertical to horitzonal axis */
+
 .keyboard-container {
     display: grid;
     justify-content: center;
@@ -29,7 +31,7 @@ body {
     border: 1px solid #333;
 }
 
-/* Styling for piano black keys */
+/* Styling for piano black keys and move on top of white keys with z index */
 .black {
     width: 60px;
     height: 240px;
