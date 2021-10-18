@@ -1,6 +1,32 @@
 
+ /* psuedo elements added for border-box sizing */
+
+ *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+
  /* temporary background color */
 
 body {
     background-color: aqua;
+    display: grid
+}
+
+/* Styling for piano white keys */
+
+.white {
+    width: 100px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid #333;
+}
+
+/* Styling for piano black keys */
+.black {
+    width: 60px;
+    height: 240px;
+    background-color: black;
+    margin-left: -30px;
+
 }
