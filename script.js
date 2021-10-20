@@ -40,37 +40,28 @@ function colorNote (key, noteAudio, className = 'active') {
     }
 }
 
-/*function playNotes () {
-    // Notes to play
-    const notes = [
-        '1B',
-        '1G',
-        '1C',
-    ];
-
-    // Create interval and save it's ID
-    const intervalID = setInterval(() => {
-        // Get selected note and it's corresponding HTML key div
-        const selectedNote = notes.shift();
-        const key = document.querySelector(`.key[data-note="${selectedNote}"]`);
-        
-        // Play note
-        playNote(key);
-
-        // Stop interval if no left notes
-        if (notes.length === 0) {
-            clearInterval(intervalID);
-        }
-    }, 1000);
-}*/
-
 let lastNote;
 
 // Notes to play
 const notes = [
-    '1B',
+    '1C',
+    '1E',
     '1G',
     '1C',
+    '1E',
+    '1G',
+    '1B',
+    '1C',
+    '1E',
+    '1C',
+    '1E',
+    '1G',
+    '1C',
+    '1E',
+    '1G',
+    '1B',
+    '1C',
+    '1E',
 ];
 
 function playNotes () {
