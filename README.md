@@ -54,3 +54,89 @@ This wireframe shows the piano highlight in red which piano key the user needs t
 This wireframe shows the key when the user has clicked on it. 
 
 ![Piano highlighting user has clicked on key](assets/images/piano_userkey.PNG)
+
+## Features 
+
+
+## Bugs - Fixed 
+
+1. Piano sounds would not play when user click on piano key. I was using incorrectly formatted audio. 
+    Now update to format shown here: https://www.w3schools.com/tags/tag_audio.asp
+2. Incorrect sounds were playing when user clicks on piano keys. Audio files in pianokeys folder where named inconsistenly. 
+    Now updated to follow format octave and letter. 1C, 2B etc. 
+3. Song would not play passed the first note. I had incorrectly translated sheet music to ABC notation and format to format array correctly. 
+    Now fixed by using ABC noation that matches data-note IDs = 1C, 2B. 
+
+## Bugs - Not Fixed 
+
+1. If a key does not have a sound recording to play i.e. it's missing. The key gets stuck on blue. It would be good to include some type of error handling so the user can continue learning. 
+![Piano keys stuck on blue](assets/images/bugbluekeys.PNG)
+
+## Libraries & Technologies Utilised
+* [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) - used to define the content and structure of website.
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - used to define the appearance and presentation of the website.
+* [Git](https://www.atlassian.com/git) - used for branching, merging, and rewriting repository history.
+* [GitHub](https://github.com/) - used a hosting service for Git repositories.
+* [Gitpod](https://gitpod.io/) - used as a workspace for Git repositories.
+* [CSSgrid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) - used to create a highly responsive grid that's structure is easily manipulated.
+* [Google Fonts](https://fonts.google.com/share?selection.family=Oxygen%7CUbuntu) - Used to select and embed fonts in respository.
+* [Material.io](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=D1C4E9&secondary.color=BBDEFB&secondary.text.color=000000&primary.text.color=0a0a0a) - Used to select and create primary and secondary colour paletete.
+* [Font Awesome](https://fontawesome.com/) - Used to select and import icons into project.
+
+## Testing
+### Validators
+
+* [HTML - W3C HTML Validator](https://validator.w3.org/)
+> To do
+
+
+
+* [CSS - W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+> To do
+
+
+* [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
+> To do
+
+
+
+### Compatibility
+
+I've tested the site in the following browswers on desktop and mobile:
+
+Chrome 93.0.4577.63
+Brave 1.28.106
+Safari 14.0.3
+Edge 93.0.961.44
+
+
+## Deployment
+
+* The site was deployed to GitHub pages. The steps to deploy are as follows:
+* In the GitHub repository, navigate to the Settings tab
+* From the source section drop-down menu, select the Master Branch
+* Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+* In order to make a local copy of this repos you can type the following command in your IDE terminal:
+-`[git clone](https://github.com/declanosullivan/virtual_piano_teacher.git)`
+
+* Additionally if you're using gitpod you can [click here](https://gitpod.io/#https://github.com/declanosullivan/virtual_piano_teacher)
+
+## Credits and Learning Experience
+
+### Content
+
+Inspired by the following tutorials:
+
+* Build A Piano With JavaScript - Tutorial by Web Dev Simplified
+https://www.youtube.com/watch?v=vjco5yKZpU8
+
+* Make a JavaScript Drum Kit in Vanilla JS! by Wes Bos
+https://www.youtube.com/watch?v=VuN8qwZoego
+
+### Media
+
+* Pexels - All images are stock images from this site
+
+### Acknowledgements
+I'm really grateful for the support I've received from the CI course, CI community and my July-5p cohort. I'd like in particular to thank my mentor Tim as well as the tutors who've helped me through LMS challenages.
