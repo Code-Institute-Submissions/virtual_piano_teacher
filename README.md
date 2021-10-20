@@ -24,24 +24,18 @@ https://www.youtube.com/watch?v=frxT2qB1POQ
 
 - From lessons my mom gave me and my brother, I then went on to study general music as my optional subject for my leaving certificate and then choose music as part of undergraduate BA. 
 
-## Features
+## UX
 
-1. A virtual piano/keyboard 1-2 octaves
-    1. Play appropiate sounds when keys clicked (click C natural key on virtual piano and C natural piano sound plays)
-    2. Need a list of piano individual key recordings
+### User Stories
 
-2. A teacher feature - two options
-    1. The key lights up and the user clicks.
-    2. Two pianos top and bottom. The teacher piano on top and learner piano on bottom. 
-
-### Current questions?
-
-1. Can CSS grid be used to make the virtual piano of black and white keys?
--Yes, this video shows it being done in flexbox but can be adapted to CSS grid.  
-https://www.youtube.com/watch?v=vjco5yKZpU8&t=15s
+* As a user, I need to open the site and see full two octaves of piano without scrolling.
+* As a user, I need an easy way (i.e button) to have the website start teaching me a snippet of music
+* As a user, I need the piano to highlight (i.e red) which key I should click next.
+* As a user, I need the piano to highlight to a different colour when I've clicked the correct key (i.e blue)
+* As a user, I also need to hear the correct piano sound when I click any key - correct or incorrect. 
 
 
-## Wireframes
+### Wireframes
 
 Below is the wireframe showing the piano not in action. The user presses start button for the virtual piano teacher to start and then stop at any time to end.
 
@@ -55,7 +49,20 @@ This wireframe shows the key when the user has clicked on it.
 
 ![Piano highlighting user has clicked on key](assets/images/piano_userkey.PNG)
 
-## Features 
+### Features
+
+## Features
+
+Implemented  | Feature
+------------- | -------------
+Yes  | Website loads with a two octave piano with correct black and white keys
+Yes  | Convert sheet music song to ABC notation that matches audio tags
+Yes  | There is a start button to iniate user being taught snippet of music
+Yes  | The key highlights red indicate to the user to click it
+Yes  | A sound plays when the user clicks either the highlighted key in red or an incorrect key
+Yes  | The key highlights in blue confirming the user has clicked it
+No  | The notes play for the appropriate lenght (4 beats, 2 beats, 1 beat)
+No  | There is a dropdown allowing the user to choose different song snippets to learn
 
 
 ## Bugs - Fixed 
@@ -101,6 +108,7 @@ This wireframe shows the key when the user has clicked on it.
 
 
 ### Compatibility
+To do
 
 I've tested the site in the following browswers on desktop and mobile:
 
