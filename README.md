@@ -40,3 +40,17 @@ https://www.youtube.com/watch?v=frxT2qB1POQ
 -Yes, this video shows it being done in flexbox but can be adapted to CSS grid.  
 https://www.youtube.com/watch?v=vjco5yKZpU8&t=15s
 
+
+## Wireframes
+
+Below is the wireframe showing the piano not in action. The user presses start button for the virtual piano teacher to start and then stop at any time to end.
+
+![Piano at start position](assets/images/paino_noaction.PNG)
+
+This wireframe shows the piano highlight in red which piano key the user needs to press next. 
+
+![Piano highlighting next key to be played](assets/images/piano_teacherkey.PNG)
+
+This wireframe shows the key when the user has clicked on it. 
+
+![Piano highlighting user has clicked on key](assets/images/piano_userkey.PNG)
