@@ -142,6 +142,9 @@ https://www.youtube.com/watch?v=vjco5yKZpU8
 * Make a JavaScript Drum Kit in Vanilla JS! by Wes Bos
 https://www.youtube.com/watch?v=VuN8qwZoego
 
+* The website displays in landscape on mobile. Code taken from here:
+https://css-tricks.com/snippets/css/orientation-lock/
+
 ### Media
 
 * Pexels - All images are stock images from this site
