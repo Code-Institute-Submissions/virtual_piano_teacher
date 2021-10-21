@@ -1,8 +1,12 @@
 const keys = document.querySelectorAll('.key')
 
+// For each key, there is an event listening waiting to a click to call a function
+
 keys.forEach(key => {
     key.addEventListener('click', () => handleClick(key))
 })
+
+// For each key, there is an event listening waiting to a click to call a function
   
 function handleClick(key) {
     playNote(key);
@@ -21,12 +25,16 @@ function handleClick(key) {
     }
 }
 
+
+
 function playNote(key) {
     const noteAudio = document.getElementById(key.dataset.note)
     noteAudio.currentTime = 0
     noteAudio.play()
     colorNote(key, noteAudio);
 }
+
+// Create colorNote function to add class active to key when clicked so it's color changes i.e blue
 
 function colorNote (key, noteAudio, className = 'active') {
     key.classList.add(className)
@@ -71,7 +79,7 @@ function playNotes () {
     
     lastNote = key;
 
-    // Color note
+    // Highlight note i.e red indicating to user to click it
     colorNote(key, null, 'highlight');
 }
 
