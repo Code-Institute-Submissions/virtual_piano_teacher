@@ -68,9 +68,14 @@ body {
 
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
+    html {
+        transform: rotate(-90deg);
+
+    }    
     body {
         background-color: green;
     }
+
 
     .white {
         width: 20px;
