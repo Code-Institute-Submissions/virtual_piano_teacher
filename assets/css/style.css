@@ -8,8 +8,12 @@
 
  /* temporary background color */
 
-body {
-    background-color: aqua;
+.bg {
+    background-image: url("assets/images/backgroundtheatre.png");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
  /* Heading formatting */
@@ -57,10 +61,10 @@ body {
     background: #36C;
 }
 
-/* Media queries */
+/* Media queries
 
 /* For larger to medium screens size from 1300px wide and down */
-@media screen and (max-width: 1300px) {
+/* @media screen and (max-width: 1300px) {
     body {
         background-color: rgb(128, 109, 0);
     }
@@ -81,10 +85,10 @@ body {
     z-index: 2;
     }
 
-}
+} */
 
 /* For tablet or medium screens size from 1000px wide and down */
-@media screen and (max-width: 1000px) {
+/* @media screen and (max-width: 1000px) {
 
     body {
         background-color: purple;
@@ -106,10 +110,10 @@ body {
     z-index: 2;
     }
 
-}
+} */
 
 /* For mobile or small screen sizes from 480px wide and down */
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
     html {
         transform: rotate(-90deg);
         transform-origin: left top;
@@ -140,10 +144,10 @@ body {
         z-index: 2;
     }
     
-}
+} */
 
 /* For mobile or small screen sizes from 480px wide and down on lanscape */
-@media screen and (max-width: 400px) and (orientation: landscape) {
+/* @media screen and (max-width: 400px) and (orientation: landscape) {
     html {
         transform: rotate(-90deg);
         transform-origin: left top;
@@ -174,4 +178,4 @@ body {
         margin-right: -7.5px;
         z-index: 2;
     }
-}
+} 
