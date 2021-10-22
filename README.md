@@ -1,3 +1,6 @@
+
+![Responsive mockup](assets/images/viewportsample.PNG)
+
 # Virtual Piano Teacher
 
 ## Overview

@@ -59,16 +59,56 @@ body {
 
 /* Media queries */
 
-/* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
+/* For larger to medium screens size from 1300px wide and down */
+@media screen and (max-width: 1300px) {
+    body {
+        background-color: rgb(128, 109, 0);
+    }
+
+    .white {
+    width: 67px;
+    height: 267px;
+    background-color: white;
+    border: 1px solid #333;
+    }
+
+    .black {
+    width: 40px;
+    height: 160px;
+    background-color: black;
+    margin-left: -20px;
+    margin-right: -20px;
+    z-index: 2;
+    }
+
+}
+
+/* For tablet or medium screens size from 1000px wide and down */
+@media screen and (max-width: 1000px) {
+
     body {
         background-color: purple;
     }
-    
+
+    .white {
+    width: 50px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid #333;
+    }
+
+    .black {
+    width: 30px;
+    height: 120px;
+    background-color: black;
+    margin-left: -15px;
+    margin-right: -15px;
+    z-index: 2;
+    }
+
 }
 
-
-/* For small screen sizes from 480px wide and down */
+/* For mobile or small screen sizes from 480px wide and down */
 @media screen and (max-width: 480px) {
     html {
         transform: rotate(-90deg);
@@ -85,18 +125,52 @@ body {
     }
 
     .white {
-        width: 40px;
-        height: 160px;
+        width: 25px;
+        height: 100px;
         background-color: white;
         border: 1px solid #333;
     }
     
     .black {
-        width: 24px;
-        height: 96px;
+        width: 15px;
+        height: 60px;
         background-color: black;
-        margin-left: -12px;
-        margin-right: -12px;
+        margin-left: -7.5px;
+        margin-right: -7.5px;
+        z-index: 2;
+    
+}
+
+/* For mobile or small screen sizes from 480px wide and down */
+@media screen and (max-width: 480px) and (orientation: landscape) {
+    html {
+        transform: rotate(-90deg);
+        transform-origin: left top;
+        width: 100vh;
+        overflow-x: hidden;
+        position: absolute;
+        top: 100%;
+        left: 0;
+
+    }    
+          
+    body {
+        background-color: green;
+    }
+
+    .white {
+        width: 25px;
+        height: 100px;
+        background-color: white;
+        border: 1px solid #333;
+    }
+    
+    .black {
+        width: 15px;
+        height: 60px;
+        background-color: black;
+        margin-left: -7.5px;
+        margin-right: -7.5px;
         z-index: 2;
     
 }
