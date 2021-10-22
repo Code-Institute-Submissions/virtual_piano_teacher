@@ -1,10 +1,10 @@
-const keys = document.querySelectorAll('.key')
+const keys = document.querySelectorAll('.key');
 
 // For each key, there is an event listening waiting to a click to call a function
 
 keys.forEach(key => {
-    key.addEventListener('click', () => handleClick(key))
-})
+    key.addEventListener('click', () => handleClick(key));
+});
 
 // For each key, there is an event listening waiting to a click to call a function
   
@@ -25,23 +25,21 @@ function handleClick(key) {
     }
 }
 
-
-
 function playNote(key) {
-    const noteAudio = document.getElementById(key.dataset.note)
-    noteAudio.currentTime = 0
-    noteAudio.play()
+    const noteAudio = document.getElementById(key.dataset.note);
+    noteAudio.currentTime = 0;
+    noteAudio.play();
     colorNote(key, noteAudio);
 }
 
 // Create colorNote function to add class active to key when clicked so it's color changes i.e blue
 
 function colorNote (key, noteAudio, className = 'active') {
-    key.classList.add(className)
+    key.classList.add(className);
 
     if (noteAudio) {
         noteAudio.addEventListener('ended', () => {
-          key.classList.remove('active')
+          key.classList.remove('active');
         });
     } else {
         setTimeout(() => key.classList.remove(className), 1000);
