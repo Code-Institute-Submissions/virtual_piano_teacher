@@ -97,13 +97,15 @@ No  | There is a dropdown allowing the user to choose different song snippets to
 ### Validators
 
 * [HTML - W3C HTML Validator](https://validator.w3.org/)
-> To do
+> Passed
 
+![Passed HTML validator](assets/images/w3chtmlpass.PNG)
 
 
 * [CSS - W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
-> To do
+> 2 errors found. Missing closing curley brack for media query line 176. 
 
+![Passed CSS validator](assets/images/w3ccsspass.PNG)
 
 * [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
 > To do
