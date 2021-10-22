@@ -1,26 +1,31 @@
+/* psuedo elements added for border-box sizing */
 
- /* psuedo elements added for border-box sizing */
-
- *, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
-  }
-
-
- /* temporary background color */
-
-.bg {
-    background-image: url("assets/images/backgroundtheatre.png");
-    height: 100%; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
- /* Heading formatting */
 
- h1{
-     text-align: center;
- }
+/* Background image */
+
+body {
+    background: url(../images/backgroundtheatre.png) no-repeat center center;
+    height: 100%;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Heading formatting */
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+/* Start button formatting */
+
 
 /* Add CSS grid styling change keys from vertical to horitzonal axis */
 
@@ -57,6 +62,7 @@
 .key.highlight {
     background: #C36;
 }
+
 .key.active {
     background: #36C;
 }
