@@ -76,6 +76,7 @@ No  | There is a dropdown allowing the user to choose different song snippets to
     Now updated to follow format octave and letter. 1C, 2B etc. 
 3. Song would not play passed the first note. I had incorrectly translated sheet music to ABC notation and format to format array correctly. 
     Now fixed by using ABC noation that matches data-note IDs = 1C, 2B. 
+4. Black notes won't play today Oct 10th. The will highlight blue but no sound plays. The only different is the in the naming of the sound files. The black keys have a # symbol to indicate sharp. I've replaced the # with the word sharp and updated audio tags. 
 
 ## Bugs - Not Fixed 
 
