@@ -1,18 +1,20 @@
-
-![Responsive mockup](assets/images/viewportsample.PNG)
+![Responsive mockup](documentation/wireframes/viewportsample.png)
 
 # Virtual Piano Teacher
 
 ## Overview
 
 ### What is the purpose of this project?
+
 - To create a 1-2 octave virtual piano that teaches it's user snippets of classical/baroque music. 
 
 ### What is an octave?
+
 - This is best ansnwered by the wiki page on Octave
 https://en.wikipedia.org/wiki/Octave
 
 ### Why classical/baroque  music?
+
 - The music is often free of copyright such J.S Bach's Prelude in C Major (link below), sometimes well known from movies/commericals. This particular piece is from Bach's Well-Tempered Clavier, considered one of the most important works in keyboard history.
 https://www.youtube.com/watch?v=frxT2qB1POQ
 
@@ -23,6 +25,7 @@ https://www.youtube.com/watch?v=frxT2qB1POQ
 - As this is not a real piano/keyboard but virtual, the user will be using either their mouse or computer keyboard to play/interact. It's entertaining for the user for 1 minute this way, for 3/4 minutes it would tedious. 
 
 ### Why did I choose this topic for project no. 2?
+
 - Music, specifically the piano, has been a part of my life from a young age. At the age of 7/8, my mom started teaching me the piano she had learned as a child on the same piano she grew up on, that my cousins of the next generation are now learning the piano on (three generations and counting!).
 
 - From lessons my mom gave me and my brother, I then went on to study general music as my optional subject for my leaving certificate and then choose music as part of undergraduate BA. 
@@ -42,15 +45,15 @@ https://www.youtube.com/watch?v=frxT2qB1POQ
 
 Below is the wireframe showing the piano not in action. The user presses start button for the virtual piano teacher to start and then stop at any time to end.
 
-![Piano at start position](assets/images/paino_noaction.PNG)
+![Piano at start position](documentation/wireframes/paino_noaction.png)
 
 This wireframe shows the piano highlight in red which piano key the user needs to press next. 
 
-![Piano highlighting next key to be played](assets/images/piano_teacherkey.PNG)
+![Piano highlighting next key to be played](documentation/wireframes/piano_teacherkey.png)
 
 This wireframe shows the key when the user has clicked on it. 
 
-![Piano highlighting user has clicked on key](assets/images/piano_userkey.PNG)
+![Piano highlighting user has clicked on key](documentation/wireframes/piano_userkey.png)
 
 ### Features
 
@@ -82,9 +85,10 @@ Yes | Pop up once song is complete alerting user.
 ## Bugs - Not Fixed 
 
 1. If a key does not have a sound recording to play i.e. it's missing. The key gets stuck on blue. It would be good to include some type of error handling so the user can continue learning. 
-![Piano keys stuck on blue](assets/images/bugbluekeys.PNG)
+![Piano keys stuck on blue](documentation/testing/bugbluekeys.png)
 
 ## Libraries & Technologies Utilised
+
 * [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) - used to define the content and structure of website.
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - used to define the appearance and presentation of the website.
 * [Git](https://www.atlassian.com/git) - used for branching, merging, and rewriting repository history.
@@ -96,32 +100,33 @@ Yes | Pop up once song is complete alerting user.
 * [Font Awesome](https://fontawesome.com/) - Used to select and import icons into project.
 
 ## Testing
+
 ### Validators
 
 * [HTML - W3C HTML Validator](https://validator.w3.org/)
 
 > Passed
 
-![Passed HTML validator](assets/images/w3chtmlpass.PNG)
-
-
+![Passed HTML validator](documentation/testing/w3chtmlpass.png)
 
 * [CSS - W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
-> 2 errors found. Missing closing curley brack for media query line 176. 
 
-![Passed CSS validator](assets/images/w3ccsspass.PNG)
+> 2 errors found. Missing closing curley brack for media query line 176. Now fixed.
+
+![Passed CSS validator](documentation/testing/w3ccsspass.png)
 
 * [Javascript - Jshint Javascript Validator](https://jshint.com/)
-> Passed
 
-![Passed HTML validator](assets/images/jshintpass.PNG)
+> Passed - note I configured Jshint to accept New JavaScript features (ES6).
+
+![Passed HTML validator](documentation/testing/jshintpass.png)
 
 * [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
+
 > To do
 
-
-
 ### Compatibility
+
 To do
 
 I've tested the site in the following browswers on desktop and mobile:
@@ -131,7 +136,6 @@ Brave 1.28.106
 Safari 14.0.3
 Edge 93.0.961.44
 
-
 ## Deployment
 
 * The site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -140,7 +144,7 @@ Edge 93.0.961.44
 * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 * In order to make a local copy of this repos you can type the following command in your IDE terminal:
--`[git clone](https://github.com/declanosullivan/virtual_piano_teacher.git)`
+- `git clone https://github.com/declanosullivan/virtual_piano_teacher.git`
 
 * Additionally if you're using gitpod you can [click here](https://gitpod.io/#https://github.com/declanosullivan/virtual_piano_teacher)
 
@@ -164,4 +168,5 @@ https://css-tricks.com/snippets/css/orientation-lock/
 * Pexels - All images are stock images from this site
 
 ### Acknowledgements
+
 I'm really grateful for the support I've received from the CI course, CI community and my July-5p cohort. I'd like in particular to thank my mentor Tim as well as the tutors who've helped me through LMS challenages.
