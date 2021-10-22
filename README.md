@@ -66,6 +66,7 @@ Yes  | A sound plays when the user clicks either the highlighted key in red or a
 Yes  | The key highlights in blue confirming the user has clicked it
 No  | The notes play for the appropriate lenght (4 beats, 2 beats, 1 beat)
 No  | There is a dropdown allowing the user to choose different song snippets to learn
+Yes | Pop up once song is complete alerting user. 
 
 
 ## Bugs - Fixed 
@@ -98,15 +99,22 @@ No  | There is a dropdown allowing the user to choose different song snippets to
 ### Validators
 
 * [HTML - W3C HTML Validator](https://validator.w3.org/)
+
 > Passed
 
 ![Passed HTML validator](assets/images/w3chtmlpass.PNG)
+
 
 
 * [CSS - W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 > 2 errors found. Missing closing curley brack for media query line 176. 
 
 ![Passed CSS validator](assets/images/w3ccsspass.PNG)
+
+* [Javascript - Jshint Javascript Validator](https://jshint.com/)
+> Passed
+
+![Passed HTML validator](assets/images/jshintpass.PNG)
 
 * [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
 > To do
