@@ -1,3 +1,5 @@
+/* jshint esversion: 8 */
+
 // For each key, there is an event listening waiting to a click to call a function
 function handleClick(key) {
     playNote(key);
