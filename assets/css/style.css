@@ -35,26 +35,26 @@ h1 {
     align-content: center;
     grid-auto-flow: column;
     grid-template-columns: auto;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 2.4vw;
+    padding-right: 2.4vw;
 }
 
 /* Styling for piano white keys */
 
 .white {
-    width: 100px;
-    height: 400px;
+    width: 6.25vw;
+    height: 50vh;
     background-color: white;
     border: 1px solid #333;
 }
 
 /* Styling for piano black keys and move on top of white keys with z index */
 .black {
-    width: 60px;
-    height: 240px;
+    width: 3.125vw;
+    height: 30vh;
     background-color: black;
-    margin-left: -30px;
-    margin-right: -30px;
+    margin-left: -1.56vw;
+    margin-right: -1.56vw;
     z-index: 2;
 }
 
