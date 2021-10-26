@@ -136,17 +136,35 @@ Brave 1.28.106
 Safari 14.0.3
 Edge 93.0.961.44
 
+### Responsiveness
+
+Desktop
+Tablet
+Mobile
+
+### User Story Testing
+
+* As a user, I need to open the site and see full two octaves of piano without scrolling.
+* As a user, I need an easy way (i.e button) to have the website start teaching me a snippet of music
+* As a user, I need the piano to highlight (i.e red) which key I should click next.
+* As a user, I need the piano to highlight to a different colour when I've clicked the correct key (i.e blue)
+* As a user, I also need to hear the correct piano sound when I click any key - correct or incorrect. 
+
 ## Deployment
 
-* The site was deployed to GitHub pages. The steps to deploy are as follows:
-* In the GitHub repository, navigate to the Settings tab
-* From the source section drop-down menu, select the Master Branch
-* Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The site was deployed to GitHub pages. The steps to deploy are as follows:
 
-* In order to make a local copy of this repos you can type the following command in your IDE terminal:
+* In the GitHub repository, navigate to the Settings tab
+* From the source section drop-down menu, select the Main branch
+* Once the Main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+### Local Deployment
+
+In order to make a local copy of this repos you can type the following command in your IDE terminal:
+
 - `git clone https://github.com/declanosullivan/virtual_piano_teacher.git`
 
-* Additionally if you're using gitpod you can [click here](https://gitpod.io/#https://github.com/declanosullivan/virtual_piano_teacher)
+Additionally if you're using gitpod you can [click here](https://gitpod.io/#https://github.com/declanosullivan/virtual_piano_teacher)
 
 ## Credits and Learning Experience
 
