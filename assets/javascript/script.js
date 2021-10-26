@@ -7,7 +7,6 @@ function handleClick(key) {
     // User playing notes
     // If user played the correct note/key...
     if (key === lastNote) {
-        console.log('Great!');
 
         // There are more notes to play
         if (notes.length !== 0) {
@@ -20,9 +19,7 @@ function handleClick(key) {
         else {
             alert("Song complete. Well done!");
         }
-    } else {
-        console.log('Failed');
-    }
+    } 
 }
 
 const keys = document.querySelectorAll('.key'); // Array like object
@@ -64,24 +61,24 @@ let lastNote;
 
 // Notes to play
 const notes = [
-    '1C',
-    '1E',
-    '1G',
-    '2C',
-    '2E',
-    '1G',
-    '1B',
-    '2C',
-    '2E',
-    '1C',
-    '1E',
-    '1G',
-    '2C',
-    '2E',
-    '1G',
-    '1B',
-    '2C',
-    '2E',
+    '1c',
+    '1e',
+    '1g',
+    '2c',
+    '2e',
+    '1g',
+    '1b',
+    '2b',
+    '2e',
+    '1c',
+    '1e',
+    '1g',
+    '2c',
+    '2e',
+    '1g',
+    '1b',
+    '2c',
+    '2e',
 ];
 
 function playNotes () {
