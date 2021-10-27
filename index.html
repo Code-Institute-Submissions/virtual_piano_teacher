@@ -8,6 +8,7 @@
     Keyboards, Bach, MIDI, music">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Virtual Piano Teacher</title>
+    <link rel="shortcut icon" type="image/jpg" href="assets/images/favicon.ico">
 </head>
 <body>
     <h1>Virtual Piano Teacher</h1>
@@ -27,8 +28,8 @@
         <button id="start">Start</button>
         <button onclick="reloadpage()">Refresh</button>
     </div>
+<!-- Container for piano keys-->
     <div class="keyboard-container">
-        <!-- First Octave -->
         <div data-note="1c" class="key white"></div>
         <div data-note="1csharp" class="key black"></div>
         <div data-note="1d" class="key white"></div>
@@ -41,7 +42,6 @@
         <div data-note="1a" class="key white"></div>
         <div data-note="1asharp" class="key black"></div>
         <div data-note="1b" class="key white"></div>
-        <!-- Second Octave -->
         <div data-note="2c" class="key white"></div>
         <div data-note="2csharp" class="key black"></div>
         <div data-note="2d" class="key white"></div>
@@ -54,14 +54,10 @@
         <div data-note="2a" class="key white"></div>
         <div data-note="2asharp" class="key black"></div>
         <div data-note="2b" class="key black"></div>
-        <!-- Third Octave -->
         <div data-note="3c" class="key white"></div>
     </div>
 
-
-
 <!-- Link white/black keys to sound files via audio tags -->
-    <!-- First Octave -->
     <audio id="1c"><source src="assets/audio/1c.mp3" type="audio/mp3"></audio>
     <audio id="1csharp"><source src="assets/audio/1csharp.mp3" type="audio/mp3"></audio>
     <audio id="1d"><source src="assets/audio/1d.mp3" type="audio/mp3"></audio>
@@ -74,21 +70,21 @@
     <audio id="1a"><source src="assets/audio/1a.mp3" type="audio/mp3"></audio>
     <audio id="1asharp"><source src="assets/audio/1asharp.mp3" type="audio/mp3"></audio>
     <audio id="1b"><source src="assets/audio/1b.mp3" type="audio/mp3"></audio>
-    <!-- Second Octave -->
-    <audio id="2c"><source src="assets/audio/1c.mp3" type="audio/mp3"></audio>
-    <audio id="2csharp"><source src="assets/audio/1c.mp3" type="audio/mp3"></audio>
-    <audio id="2d"><source src="assets/audio/1c.mp3" type="audio/mp3"></audio>
-    <audio id="2dsharp"><source src="assets/audio/1c.mp3" type="audio/mp3"></audio>
-    <audio id="2e"><source src="assets/audio/1c.mp3" type="audio/mp3"></audio>
-    <audio id="2f"><source src="assets/audio/1c.mp3" type="audio/mp3"></audio>
-    <audio id="2fsharp"><source src="assets/audio/1c.mp3" type="audio/mp3"></audio>
-    <audio id="2g"><source src="assets/audio/1c.mp3" type="audio/mp3"></audio>
-    <audio id="2gsharp"><source src="assets/audio/1c.mp3" type="audio/mp3"></audio>
-    <audio id="2a"><source src="assets/audio/1c.mp3" type="audio/mp3"></audio>
-    <audio id="2asharp"><source src="assets/audio/1c.mp3" type="audio/mp3"></audio>
-    <audio id="2b"><source src="assets/audio/1c.mp3" type="audio/mp3"></audio>
-    <!-- Third Octave -->
-    <audio id="3c"><source src="assets/audio/1c.mp3" type="audio/mp3"></audio>
+    <audio id="2c"><source src="assets/audio/2c.mp3" type="audio/mp3"></audio>
+    <audio id="2csharp"><source src="assets/audio/2csharp.mp3" type="audio/mp3"></audio>
+    <audio id="2d"><source src="assets/audio/2d.mp3" type="audio/mp3"></audio>
+    <audio id="2dsharp"><source src="assets/audio/2dsharp.mp3" type="audio/mp3"></audio>
+    <audio id="2e"><source src="assets/audio/2e.mp3" type="audio/mp3"></audio>
+    <audio id="2f"><source src="assets/audio/2f.mp3" type="audio/mp3"></audio>
+    <audio id="2fsharp"><source src="assets/audio/2fsharp.mp3" type="audio/mp3"></audio>
+    <audio id="2g"><source src="assets/audio/2g.mp3" type="audio/mp3"></audio>
+    <audio id="2gsharp"><source src="assets/audio/2gsharp.mp3" type="audio/mp3"></audio>
+    <audio id="2a"><source src="assets/audio/2a.mp3" type="audio/mp3"></audio>
+    <audio id="2asharp"><source src="assets/audio/2asharp.mp3" type="audio/mp3"></audio>
+    <audio id="2b"><source src="assets/audio/2b.mp3" type="audio/mp3"></audio>
+    <audio id="3c"><source src="assets/audio/3c.mp3" type="audio/mp3"></audio>
+    
+<!-- Link to javascript file -->
     <script src="assets/javascript/script.js"></script>
 </body>
 </html>
