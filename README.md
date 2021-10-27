@@ -119,15 +119,25 @@ No | Drop down menu to select from list of songs
 ## Libraries & Technologies Utilised
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) - used to define the content and structure of website.
+
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - used to define the appearance and presentation of the website.
+
 * [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - used to create dynamically updating content, control multimedia, animate images, and add behaviour to a site.
+
 * [Git](https://www.atlassian.com/git) - used for branching, merging, and rewriting repository history.
+
 * [GitHub](https://github.com/) - used a hosting service for Git repositories.
+
 * [Gitpod](https://gitpod.io/) - used as a workspace for Git repositories.
+
 * [CSSgrid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) - used to create a highly responsive grid that's structure is easily manipulated.
+
 * [Google Fonts](https://fonts.google.com/share?selection.family=Oxygen%7CUbuntu) - Used to select and embed fonts in respository.
+
 * [Material.io](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=D1C4E9&secondary.color=BBDEFB&secondary.text.color=000000&primary.text.color=0a0a0a) - Used to select and create primary and secondary colour paletete.
+
 * [Font Awesome](https://fontawesome.com/) - Used to select and import icons into project.
+
 * [Convertio](https://convertio.co/) - used to convert audio recordings from m4a (recorded piano notes on my iphone) to mp3.
 
 ## Testing
@@ -200,9 +210,17 @@ I've tested the site in the following browswers on desktop and mobile:
 
 ### Responsiveness
 
-Desktop
-Tablet
-Mobile
+* Desktop
+
+![Desktop Chrome](documentation/browsertesting/desktopchrome.png)
+
+* Tablet
+
+![Ipad Chrome](documentation/browsertesting/ipadchrome.png)
+
+* Mobile
+
+![Mobile Chrome](documentation/browsertesting/mobilechrome.png)
 
 ### User Story Testing
 
