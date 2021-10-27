@@ -1,4 +1,4 @@
-![Responsive mockup](documentation/wireframes/responsivemockup.jpg)
+![Responsive mockup](documentation/wireframes/responsivemockup.png)
 
 # Virtual Piano Teacher
 
