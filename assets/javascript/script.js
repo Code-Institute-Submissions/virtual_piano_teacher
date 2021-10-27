@@ -64,21 +64,21 @@ const notes = [
     '1c',
     '1e',
     '1g',
-    '2c',
-    '2e',
-    '1g',
-    '1b',
-    '2b',
-    '2e',
-    '1c',
-    '1e',
-    '1g',
-    '2c',
-    '2e',
-    '1g',
-    '1b',
-    '2c',
-    '2e',
+    // '2c',
+    // '2e',
+    // '1g',
+    // '1b',
+    // '2b',
+    // '2e',
+    // '1c',
+    // '1e',
+    // '1g',
+    // '2c',
+    // '2e',
+    // '1g',
+    // '1b',
+    // '2c',
+    // '2e',
 ];
 
 function playNotes () {
@@ -95,9 +95,39 @@ function playNotes () {
 
  // Click event listener added to start button
 document.querySelector('#start').addEventListener('click', function () {
-    // Remove button (should just hide it instead)
+    // Remove button 
     this.remove();
 
     // Start playing notes
     playNotes();
 });
+
+// Restart button after start button clicked //
+
+const reloadtButton = document.querySelector("#reload");
+// Reload everything:
+function reload() {
+    reload = location.reload();
+}
+// Event listeners for reload
+reloadButton.addEventListener("click", reload, false);
+
+// Modal event listeners //
+
+const modal = document.querySelector(".modal");
+const trigger = document.querySelector(".trigger");
+const closeButton = document.querySelector(".close-button");
+
+function toggleModal() {
+    modal.classList.toggle("show-modal");
+}
+
+function windowOnClick(event) {
+    if (event.target === modal) {
+        toggleModal();
+    }
+}
+
+trigger.addEventListener("click", toggleModal);
+closeButton.addEventListener("click", toggleModal);
+window.addEventListener("click", windowOnClick);
