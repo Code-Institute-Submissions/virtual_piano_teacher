@@ -73,6 +73,51 @@ h1 {
     background: #36C;
 }
 
+/* Modal styling */
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+    z-index: 3;
+}
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 1rem 1.5rem;
+    width: 24rem;
+    border-radius: 0.5rem;
+}
+.close-button {
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: lightgray;
+}
+.close-button:hover {
+    background-color: darkgray;
+}
+.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+
 /* Media queries
 
 /* For larger to medium screens size from 1300px wide and down */
@@ -125,42 +170,8 @@ h1 {
 } */
 
 /* For mobile or small screen sizes from 480px wide and down */
-/* @media screen and (max-width: 480px) {
-    html {
-        transform: rotate(-90deg);
-        transform-origin: left top;
-        width: 100vh;
-        overflow-x: hidden;
-        position: absolute;
-        top: 100%;
-        left: 0;
-
-    }    
-    body {
-        background-color: green;
-    }
-
-    .white {
-        width: 25px;
-        height: 100px;
-        background-color: white;
-        border: 1px solid #333;
-    }
-    
-    .black {
-        width: 15px;
-        height: 60px;
-        background-color: black;
-        margin-left: -7.5px;
-        margin-right: -7.5px;
-        z-index: 2;
-    }
-    
-} */
-
-/* For mobile or small screen sizes from 480px wide and down on lanscape */
-/* @media screen and (max-width: 400px) and (orientation: landscape) {
-    html {
+@media screen and (max-width: 480px) {
+    .keyboard-container {
         transform: rotate(-90deg);
         transform-origin: left top;
         width: 100vh;
@@ -171,23 +182,20 @@ h1 {
 
     }    
 
-    body {
-        background-color: rgb(128, 0, 0);
-    }
-
     .white {
-        width: 25px;
-        height: 100px;
+        width: 5vw;
+        height: 20vh;
         background-color: white;
         border: 1px solid #333;
     }
     
     .black {
-        width: 15px;
-        height: 60px;
+        width: 2.5vw;
+        height: 12vh;
         background-color: black;
-        margin-left: -7.5px;
-        margin-right: -7.5px;
+        /* margin-left: -7.5px;
+        margin-right: -7.5px; */
         z-index: 2;
     }
+    
 } 
