@@ -26,6 +26,12 @@ h1 {
 
 /* Start button formatting */
 
+.button-div {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 2vh;
+}
 
 /* Add CSS grid styling change keys from vertical to horitzonal axis */
 
