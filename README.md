@@ -1,4 +1,4 @@
-![Responsive mockup](documentation/wireframes/viewportsample.png)
+![Responsive mockup](documentation/wireframes/responsivemockup.jpg)
 
 # Virtual Piano Teacher
 
@@ -35,6 +35,7 @@ https://www.youtube.com/watch?v=frxT2qB1POQ
 ### User Stories
 
 * As a user, I need to open the site and see full two octaves of piano without scrolling.
+* As a user, I need instructions on how to use the website/app.
 * As a user, I need an easy way (i.e button) to have the website start teaching me a snippet of music
 * As a user, I need the piano to highlight (i.e red) which key I should click next.
 * As a user, I need the piano to highlight to a different colour when I've clicked the correct key (i.e blue)
@@ -70,11 +71,12 @@ Yes  | The key highlights in blue confirming the user has clicked it
 No  | The notes play for the appropriate lenght (4 beats, 2 beats, 1 beat)
 No  | There is a dropdown allowing the user to choose different song snippets to learn
 Yes | Pop up once song is complete alerting user. 
+Yes | Pop up modal displaying instructions on how to use website/app.
 
 
 ## Bugs - Fixed 
 
-1. Piano sounds would not play when user click on piano key. I was using incorrectly formatted audio. 
+1. Piano sounds would not play when user click on piano key. I was using incorrectly formatted audio tags.
     Now update to format shown here: https://www.w3schools.com/tags/tag_audio.asp
 2. Incorrect sounds were playing when user clicks on piano keys. Audio files in pianokeys folder where named inconsistenly. 
     Now updated to follow format octave and letter. 1C, 2B etc. 
@@ -111,7 +113,7 @@ Yes | Pop up once song is complete alerting user.
 
 * [CSS - W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-> 2 errors found. Missing closing curley brack for media query line 176. Now fixed.
+> Passed
 
 ![Passed CSS validator](documentation/testing/w3ccsspass.png)
 
@@ -145,10 +147,28 @@ Mobile
 ### User Story Testing
 
 * As a user, I need to open the site and see full two octaves of piano without scrolling.
+
+![Two piano octaves](documentation/userstorytesting/noscrolling.png)
+
+* As a user, I need instructions on how to use the website/app.
+
+![Instructions modal](documentation/userstorytesting/instructions.png)
+
 * As a user, I need an easy way (i.e button) to have the website start teaching me a snippet of music
+
+![Start button](documentation/userstorytesting/startteacher.png)
+
 * As a user, I need the piano to highlight (i.e red) which key I should click next.
-* As a user, I need the piano to highlight to a different colour when I've clicked the correct key (i.e blue)
+
+![Button highlighted in red](documentation/userstorytesting/redbutton.png)
+
+* As a user, I need the piano to highlight to a different colour when I've clicked the correct key (i.e blue).
+
+![Button highlighted in blue](documentation/userstorytesting/bluebutton.png)
+
 * As a user, I also need to hear the correct piano sound when I click any key - correct or incorrect. 
+
+    [Link to video showing sound playing](https://youtu.be/Q-vz1UA_J2U)
 
 ## Deployment
 
@@ -181,9 +201,14 @@ https://www.youtube.com/watch?v=VuN8qwZoego
 * The website displays in landscape on mobile. Code taken from here:
 https://css-tricks.com/snippets/css/orientation-lock/
 
+* Modal code adapted from this websiteL
+https://sabe.io/tutorials/how-to-create-modal-popup-box
+
+* Project also inspired by Javascript module on CI LMS and Love Maths project.
+
 ### Media
 
-* Pexels - All images are stock images from this site
+* [Pexels](https://www.pexels.com/) - All images are stock images from this site
 
 ### Acknowledgements
 
