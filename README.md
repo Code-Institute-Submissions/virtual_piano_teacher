@@ -72,6 +72,7 @@ No  | The notes play for the appropriate lenght (4 beats, 2 beats, 1 beat)
 No  | There is a dropdown allowing the user to choose different song snippets to learn
 Yes | Pop up once song is complete alerting user. 
 Yes | Pop up modal displaying instructions on how to use website/app.
+No | Drop down menu to select from list of songs
 
 
 ## Bugs - Fixed 
@@ -93,6 +94,7 @@ Yes | Pop up modal displaying instructions on how to use website/app.
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) - used to define the content and structure of website.
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - used to define the appearance and presentation of the website.
+* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - used to create dynamically updating content, control multimedia, animate images, and add behaviour to a site.
 * [Git](https://www.atlassian.com/git) - used for branching, merging, and rewriting repository history.
 * [GitHub](https://github.com/) - used a hosting service for Git repositories.
 * [Gitpod](https://gitpod.io/) - used as a workspace for Git repositories.
@@ -100,6 +102,7 @@ Yes | Pop up modal displaying instructions on how to use website/app.
 * [Google Fonts](https://fonts.google.com/share?selection.family=Oxygen%7CUbuntu) - Used to select and embed fonts in respository.
 * [Material.io](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=D1C4E9&secondary.color=BBDEFB&secondary.text.color=000000&primary.text.color=0a0a0a) - Used to select and create primary and secondary colour paletete.
 * [Font Awesome](https://fontawesome.com/) - Used to select and import icons into project.
+* [Convertio](https://convertio.co/) - used to convert audio recordings from m4a (recorded piano notes on my iphone) to mp3.
 
 ## Testing
 
@@ -125,18 +128,49 @@ Yes | Pop up modal displaying instructions on how to use website/app.
 
 * [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
 
-> To do
+    Mobile
+
+![Lighthouse mobile](documentation/testing/lighthousemobile.png)
+
+    Desktop
+
+![Lighthouse desktop](documentation/testing/lighthousedesktop.png)
 
 ### Compatibility
 
-To do
-
 I've tested the site in the following browswers on desktop and mobile:
 
-Chrome 93.0.4577.63
-Brave 1.28.106
-Safari 14.0.3
-Edge 93.0.961.44
+* Desktop - Chrome 95.0.4638.54
+
+![Desktop Chrome](documentation/browsertesting/desktopchrome.png)
+
+* Mobile - Chrome 95.0.4638.50
+
+![Mobile Chrome](documentation/browsertesting/mobilechrome.png)
+
+* Desktop - Brave 1.31.87
+
+![Desktop Brave](documentation/browsertesting/desktopbrave.png)
+
+* Mobile - Brave 1.32
+
+![Mobile Brave](documentation/browsertesting/mobilebrave.png)
+
+* Desktop - Edge 95.0.1020.30
+
+![Desktop Edge](documentation/browsertesting/desktopedge.png)
+
+* Mobile - Edge 93.961.64
+
+![Mobile Edge](documentation/browsertesting/mobileedge.png)
+
+* Mobile - Safari 15.0
+
+![Desktop Safari](documentation/browsertesting/desktopsafari.png)
+
+* Mobile - Safari 15.0
+
+![Mobile Safari](documentation/browsertesting/mobilesafari.png)
 
 ### Responsiveness
 
