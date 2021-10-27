@@ -63,15 +63,41 @@ This wireframe shows the key when the user has clicked on it.
 Implemented  | Feature
 ------------- | -------------
 Yes  | Website loads with a two octave piano with correct black and white keys
+
+![Two piano octaves](documentation/userstorytesting/noscrolling.png)
+
 Yes  | Convert sheet music song to ABC notation that matches audio tags
-Yes  | There is a start button to iniate user being taught snippet of music
+
+![Sheet music converted into ABC notation](documentation/userstorytesting/abcnotation.png)
+
+Yes  | There is a start button to initiate user being taught snippet of music
+
+![Start button](documentation/userstorytesting/startteacher.png)
+
 Yes  | The key highlights red indicate to the user to click it
+
+![Button highlighted in red](documentation/userstorytesting/redbutton.png)
+
 Yes  | A sound plays when the user clicks either the highlighted key in red or an incorrect key
+
+[Link to video showing sound playing](https://youtu.be/Q-vz1UA_J2U)
+
 Yes  | The key highlights in blue confirming the user has clicked it
+
+![Button highlighted in blue](documentation/userstorytesting/bluebutton.png)
+
 No  | The notes play for the appropriate lenght (4 beats, 2 beats, 1 beat)
+
 No  | There is a dropdown allowing the user to choose different song snippets to learn
+
 Yes | Pop up once song is complete alerting user. 
+
+![Song complete pop up](documentation/userstorytesting/songcomplete.jpg)
+
 Yes | Pop up modal displaying instructions on how to use website/app.
+
+![Instructions modal](documentation/userstorytesting/instructions.png)
+
 No | Drop down menu to select from list of songs
 
 
