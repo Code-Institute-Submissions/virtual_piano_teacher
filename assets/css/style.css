@@ -176,7 +176,7 @@ h2 {
 } */
 
 /* For mobile or small screen sizes from 480px wide and down */
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
     .keyboard-container {
         transform: rotate(-90deg);
         transform-origin: left top;
@@ -199,7 +199,7 @@ h2 {
     .black {
         width: 2.5vw;
         height: 12vh;
-        background-color: black;
+        background-color: black; */
         /* margin-left: -7.5px;
         margin-right: -7.5px; */
         /* z-index: 2;
