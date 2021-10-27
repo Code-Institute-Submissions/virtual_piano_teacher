@@ -102,18 +102,14 @@ document.querySelector('#start').addEventListener('click', function () {
     playNotes();
 });
 
-// Restart button after start button clicked //
+//Refresh button to reload page //
 
-const reloadtButton = document.querySelector("#reload");
-// Reload everything:
-function reload() {
-    reload = location.reload();
-}
-// Event listeners for reload
-reloadButton.addEventListener("click", reload, false);
+function reloadpage() {
+    location.reload();
+  }
 
 // Modal event listeners //
-
+	
 const modal = document.querySelector(".modal");
 const trigger = document.querySelector(".trigger");
 const closeButton = document.querySelector(".close-button");
@@ -130,4 +126,4 @@ function windowOnClick(event) {
 
 trigger.addEventListener("click", toggleModal);
 closeButton.addEventListener("click", toggleModal);
-window.addEventListener("click", windowOnClick);
+window.addEventListener("click", windowOnClick)
