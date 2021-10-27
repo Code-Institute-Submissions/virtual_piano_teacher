@@ -12,7 +12,20 @@
 <body>
     <h1>Virtual Piano Teacher</h1>
     <!-- Button to start teacher -->
-    <button id="start">Start</button>
+    <div class="button-div">
+        <button class="trigger">Instructions</button>
+        <div class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <p>Welcome to the Virtual Piano Teacher!</p>
+                <p>Option 1 - You can play independatly without the teacher. |Just start cicking on the piano keys. Enjoy!</p>
+                <p>Option 2 - You can learn to two bars of J.S Bach's Prelude in C Major by clicking the start button. The teacher will higlight the next key in red for you to click on. </p>
+                <p>To start again at any point, refresh the page</p>
+            </div>
+        </div>
+        <button id="start">Start</button>
+        <button onClick="window.location.reload();">Restart</button>
+    </div>
     <div class="keyboard-container">
         <!-- First Octave -->
         <div data-note="1c" class="key white"></div>
